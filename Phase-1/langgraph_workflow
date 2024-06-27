@@ -1,0 +1,10 @@
+digraph {
+	ImageAgent [label=ImageAgent]
+	TextAgent [label=TextAgent]
+	Supervisor [label=Supervisor]
+	ConversationAgent [label=ConversationAgent]
+	TextAgent -> Supervisor
+	__start__ -> Supervisor
+	ImageAgent -> Supervisor
+	ConversationAgent -> Supervisor
+}
