@@ -1,4 +1,4 @@
-input_schema = {
+ {
   "type": "object",
   "properties": {
     "prompts": {
