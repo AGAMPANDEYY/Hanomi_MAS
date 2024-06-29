@@ -1,5 +1,7 @@
 # Hanomi_MAS
 Multi-Agent-System with Moderator LangGraph
+- Vision Model--> gpt-4-vision-preview
+- Conversation Model --> gpt-4-1106-preview
 
 ## Overview structure of a Multi Agent System with central Moderator
 
