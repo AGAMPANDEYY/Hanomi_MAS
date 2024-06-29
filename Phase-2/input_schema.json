@@ -1,0 +1,19 @@
+input_schema = {
+  "type": "object",
+  "properties": {
+    "prompts": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {"type": ["string","array"]}
+      }
+    },
+    "output_format": {
+      "type": "string",
+      "enum": ["list", "dict", "JSON"]
+    },
+    "example_output_structure": {"type": "string"},
+    "max_iterations": {"type": "integer"}
+  },
+  "required": ["prompts", "output_format", "example_output_structure", "max_iterations"]
+}
