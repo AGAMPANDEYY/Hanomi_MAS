@@ -1,5 +1,5 @@
 # Hanomi_MAS
-Multi-Agent-System with Moderator LangGraph [Notion-Documentation](https://www.notion.so/Multi-Agents-LLMs-190562233d6d4c188906acb18e021669#dd1df6faa1524269a9e872acc4932034)
+Multi-Agent-System with Moderator LangGraph 
 - Vision Model--> gpt-4-vision-preview
 - Conversation Model --> gpt-4-1106-preview
 
